@@ -1,0 +1,15 @@
+html {
+    background-color: antiquewhite;
+    margin: 50px;
+}
+p {
+    font-style: initial;
+    accent-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    margin-left: 80mm;
+    font-weight: lighter;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
