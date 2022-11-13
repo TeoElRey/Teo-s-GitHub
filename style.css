@@ -1,15 +1,20 @@
 html {
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     margin: 50px;
 }
 p {
-    font-style: initial;
+    font-style:normal;
     accent-color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:sans-serif;
+    text-align: right;
+
 }
 h1 {
     margin-left: 80mm;
     font-weight: lighter;
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    padding:10mm;
 }
