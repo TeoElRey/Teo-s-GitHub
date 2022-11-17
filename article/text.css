@@ -1,0 +1,58 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 20px;
+  width: 350px;
+  line-height: 27px;
+  margin-bottom: 5px;
+}
+
+.article-stats {
+  font-size: 14px;
+  color: rgb(75, 75, 75);
+  margin-bottom: 15px;
+}
+
+.article-author {
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.article-description {
+  font-size: 14px;
+  color: rgb(75, 75, 75);
+  width: 400px;
+  line-height: 23px;
+  margin-bottom: 150px;
+}
+
+.article-ad {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.apple-shop {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.apple-shop:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ad-description {
+  margin-bottom: 20px;
+}
