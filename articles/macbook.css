@@ -1,0 +1,43 @@
+p {
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+
+}
+.product-status {
+  color: rgb(255, 140, 0);
+}
+.product {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px
+}
+.product-description {
+  font-weight: bold;
+  font-size: 50px;
+}
+.product-price {
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+.macbook-link {
+  margin-left: 472px;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: white;
+  background-color: #0071e3;
+  transition: opacity 0.15;
+  text-decoration: none;
+  font-family: Arial;
+}
+.macbook-link:hover {
+  cursor: pointer;
+  opacity: 0.90;
+}
+.macbook-link:active {
+  opacity: 1;
+}
