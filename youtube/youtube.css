@@ -1,7 +1,24 @@
 .thumbnail {
   width: 300px;
+  display: block;
+  border-radius: 15px;
 }
 .searchbox {
   font-size: 20px;
   margin-left: 12px;
+  display: block;
+}
+.video-title {
+  width: 200px;
+}
+.araba {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.substitute-teacher {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
