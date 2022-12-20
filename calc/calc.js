@@ -1,4 +1,3 @@
-
 let display = document.getElementById('input')
 let buttons = document.querySelectorAll(".input-button")
 let clear = document.getElementById('clear')
@@ -11,7 +10,7 @@ window.onload = () => {
 
 buttons.forEach((buttons_class) => {
   buttons_class.addEventListener("click", () => {
-    if(display.value == 'ERR') {
+    if(display.value == 'ERR' || display.value == 'NaN' || display.value == 'Infinity') {
       display.value = ""
     }
     display.value += buttons_class.value
