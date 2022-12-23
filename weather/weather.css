@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(260deg,#2d8ba2, #7ee0f7);
+}
+.weather {
+  width: 400px;
+  background-color: white;
+  padding: 50px 30px;
+  position: absolute;
+  transform: translate(-50%, -60%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 20px 50px rgba(0, 5, 24, 0.4);
+}
+.name {
+  translate: 105px;
+  font-size: 35px;
+  color:#2d8ba2;
+}
+.input {
+  width: 100%;
+  padding-top: 10px;
+}
+.txt {
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: grey;
+  background-color: white;
+  width:340px;
+  height:35px;
+}
+.txt::placeholder {
+  color: #787087;
+  text-align: center;
+  font-size: 15px;
+}
+.solid {
+  border-top: 0.01px solid rgb(255, 240, 240);
+}
