@@ -6,7 +6,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(90deg,#bdc3c7, #2c3e50);;
+  background: linear-gradient(10deg,#bdc3c7, #2c3e50);
 }
 .calculator {
   width: 400px;
@@ -34,7 +34,7 @@ body {
 .display input::placeholder {
   color: #9490a9;
 }
-.buttons{
+.buttons {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 20px;
