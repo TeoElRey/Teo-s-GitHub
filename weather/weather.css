@@ -56,9 +56,22 @@ body {
 }
 .temp {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   
 }
-.temp-value {
+.temp-value, .city-name {
   display: inline-block;
+}
+.send {
+  background-color:rgb(0, 141, 176);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  width: 70px;
+  margin-left: 135px;
+  margin-top: 10px;
+}
+.send:hover {
+  opacity: 0.75;
 }
