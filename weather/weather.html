@@ -11,9 +11,14 @@
       <header class="name">Weather</header>
       <hr class="solid">
       <div class="input">
-        <input class="txt" type="text" spellcheck="false" placeholder="Enter city" required>
+        <input class="txt" id="textbox" type="text" spellcheck="false" placeholder="Enter city" required>
+        <button class="send" id="search">Search</button>
       </div>
       <!-- <p class="description">this is a descript</p> -->
     </div>
+    <div class="display">
+      <h1 class="temp">Temperature <p class="temp-value" id="temp-value"></p></h1>
+    </div>
+    <script src="weather.js"></script>
   </body>
 </html>
