@@ -1,16 +1,16 @@
 let txt = document.getElementById("textbox");
-let value = document.getElementById("temp-value");
+let temp = document.getElementById("temp-value");
 let button = document.getElementById("search");
 let city = '';
-button.addEventListener("click", () => {
+
+button.addEventListener("click", async () => {
   let city = txt.value;
   txt.value = '';
-  fetch("https://api.openweathermap.org/data/2.5/weather?id=" + city + "&limit=5&appid={e90d1a21ca09396aeca75540ee6f0a59}")
-  .then(function(resp) {return resp.json() })
-  .then(function(data) {const weather = JSON.parse(data)
-  return weather})
-  .then(function (data) {let temperature = data.main.temp})
+  fetch('https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=1adf9c98d1f1ffc3e24690db5e1f1659')
+  .then(async function(resp) {const data = await resp.json()
+   console.log(data)})
+
   .catch(function () {
-    txt.placeholder = 'Please enter a valid city';
+    txt.placeholder = 'Please Enter a Valid Location';
   })
 })

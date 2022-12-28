@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node": "^19.3.0",
+    "node-geocoder": "^4.2.0"
+  }
+}
