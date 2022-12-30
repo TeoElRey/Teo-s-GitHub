@@ -57,7 +57,9 @@ body {
 .temp {
   font-weight: normal;
   font-size: 20px;
-  
+}
+.temp-value {
+  margin-left: 5px;
 }
 .temp-value, .city-name {
   display: inline-block;
