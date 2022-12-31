@@ -6,17 +6,18 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(260deg,#2d8ba2, #7ee0f7);
+  background: linear-gradient(260deg,#2da260, #79e2f9);
 }
 .weather {
   width: 400px;
   background-color: white;
   padding: 50px 30px;
   position: absolute;
-  transform: translate(-130%, -60%);
+  transform: translate(-50%, -60%);
   top: 50%;
   left: 50%;
   box-shadow: 0 20px 50px rgba(0, 5, 24, 0.4);
+  border-radius: 20px;
 }
 .name {
   translate: 105px;
@@ -42,21 +43,22 @@ body {
   font-size: 15px;
 }
 .solid {
-  border-top: 0.01px solid rgb(255, 240, 240);
+  border-top: 0.01px solid rgb(178, 178, 178);
 }
-.display {
+/* .display {
   display: inline-block;
   background-color: white;
   width: 400px;
-  height: 400px;
+  height: 100px;
   padding: 50px 30px;
   position: absolute;
   box-shadow: 0 20px 50px rgba(0, 5, 24, 0.4);
-  transform: translate(200%, 20%);
-}
+  transform: translate(150%, 80%);
+} */
 .temp {
   font-weight: normal;
   font-size: 20px;
+  margin-top: 10px;
 }
 .temp-value {
   margin-left: 5px;
@@ -76,4 +78,9 @@ body {
 }
 .send:hover {
   opacity: 0.75;
+  cursor: pointer;
+}
+.other-solid {
+  border-top: 0.01px solid rgb(178, 178, 178);
+  margin-top: 10px;
 }

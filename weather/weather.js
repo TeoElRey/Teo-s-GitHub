@@ -5,6 +5,7 @@ let request = document.getElementById("city-name");
 
 button.addEventListener("click", async () => {
   let city = txt.value;
+  txt.placeholder = 'Enter City';
   city = city.charAt(0).toUpperCase() + city.slice(1)
   request.innerHTML = city + ':';
   txt.value = '';
@@ -15,5 +16,6 @@ button.addEventListener("click", async () => {
    temp.innerHTML = parseInt(temperature) + '°C'})
   .catch(function () {
     txt.placeholder = 'Please Enter a Valid Location';
+    temp.innerHTML = 'NA';
   })
 })
