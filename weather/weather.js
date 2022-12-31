@@ -2,7 +2,7 @@ let txt = document.getElementById("textbox");
 let temp = document.getElementById("temp-value");
 let button = document.getElementById("search");
 let request = document.getElementById("city-name");
-let city = '';
+
 button.addEventListener("click", async () => {
   let city = txt.value;
   city = city.charAt(0).toUpperCase() + city.slice(1)
@@ -12,7 +12,7 @@ button.addEventListener("click", async () => {
   .then(async function(resp) {const data = await resp.json()
    var temperature = data.main.temp;
    var temperature = temperature - 273.15;
-   temp.innerHTML = parseInt(temperature)})
+   temp.innerHTML = parseInt(temperature) + '°C'})
   .catch(function () {
     txt.placeholder = 'Please Enter a Valid Location';
   })
